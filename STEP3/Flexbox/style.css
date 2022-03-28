@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    background-color:#bdc3c7;
+    /* WRITE FLEXBOX PARENT CODE HERE */
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+}
+
+.blue {
+    background-color: #4b7bec;
+}
+.red {
+    background-color: #eb3b5a;
+}
+.green {
+    background-color: #20bf6b;
+}
